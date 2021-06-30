@@ -15,6 +15,7 @@ appEventData.push({
                     "priceTier": "<priceTier>"
                 },
                 "productInfo": {
+                    "brand": "<brand>",
                     "name": "<name>",
                     "productID": "<productID>",
                     "trademarkedTechnology": "<trademarkedTechnology>"
@@ -29,6 +30,7 @@ appEventData.push({
 
 |Field|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|brand|string|Describes the brand of a product or offering.|Ford, Chevrolet, Dodge, Levis, Columbia, Patagonia|||||||
 |cartID|string|Back-end identifier for a shopping cart|12345, 435678, 34567, XCV456, XCV876|||||||
 |name|string|Name of the product or offering.  Should be unique and 1:1 with productID|Oceana, Corsica, Flame Tech, Air Jordan 88|||||||
 |priceTier|string|Describes the general pricing tier of a product. \(Good, Better, Best\)|Good, Better, Best, Bronze, Silver, Gold|||||||
